@@ -31,3 +31,13 @@ SELECT tweet_count_per_user AS tweet_bucket, count(user_id) AS users_num
 FROM ( SELECT user_id, count(tweet_id) AS tweet_count_per_user 
 FROM tweets WHERE to_char(tweet_date::date, 'yyyy') = '2022' GROUP BY user_id) 
 AS total_tweets GROUP BY 1
+
+WITH CTE AS
+(SELECT user_id, COUNT(tweet_id) AS num
+FROM tweets
+WHERE EXTRACT(YEAR FROM tweet_date)='2022'
+GROUP BY user_id)
+
+SELECT num AS tweet_bucket, COUNT(user_id) AS users_num
+FROM CTE
+GROUP BY num
