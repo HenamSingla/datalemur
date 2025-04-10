@@ -28,7 +28,7 @@ page_id
 */
 
 My solution:
-SELect p.page_id FROM pages p 
+select p.page_id from pages p 
 left outer join page_likes l on p.page_id=l.page_id
 where user_id is null
 order by page_id asc
