@@ -26,6 +26,7 @@ user_id	days_between
 */
 
 My solution:
-
-
-
+SELECT user_id, (max(post_date::date)-min(post_date::date)) as days_between FROM posts
+WHERE date_part('year', post_date) = 2021
+group by user_id
+having count(post_id)>2 
