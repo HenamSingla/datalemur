@@ -29,12 +29,12 @@ Each solution is saved and organized by question topic.
 
 | Question                      | Difficulty | Solution Link                                      |
 |-------------------------------|------------|---------------------------------------------------|
-| Average Post Hiatus (Part 1)  | Easy       | [View Solution](https://github.com/username/repo/blob/main/easy/Average%20Post%20Hiatus%20(Part%201)) |
-| Data Science Skills           | Easy       | [View Solution](https://github.com/username/repo/blob/main/medium/Data%20Science%20Skills) |
-| Histogram of Tweets           | Easy       | [View Solution](https://github.com/username/repo/blob/main/easy/Histogram%20of%20Tweets) |
-| Laptop vs. Mobile Viewership  | Easy       | [View Solution](https://github.com/username/repo/blob/main/easy/Laptop%20vs.%20Mobile%20Viewership) |
-| Page With No Likes            | Easy       | [View Solution](https://github.com/username/repo/blob/main/easy/Page%20With%20No%20Likes) |
-| Unfinished Parts              | Easy       | [View Solution](https://github.com/username/repo/blob/main/medium/Unfinished%20Parts) |
+| Average Post Hiatus (Part 1)  | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Average%20Post%20Hiatus%20(Part%201)) |
+| Data Science Skills           | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Data%20Science%20Skills) |
+| Histogram of Tweets           | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Histogram%20of%20Tweets) |
+| Laptop vs. Mobile Viewership  | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Laptop%20vs.%20Mobile%20Viewership) |
+| Page With No Likes            | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Page%20With%20No%20Likes) |
+| Unfinished Parts              | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Unfinished%20Parts) |
 
 ---
 
