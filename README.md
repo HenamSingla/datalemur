@@ -28,8 +28,8 @@ Each solution is saved and organized by question topic.
 ## 📝 Sample Solutions
 
 | Question                          | Difficulty | Solution Link                             |
-|----------------------------------|------------|-------------------------------------------|
-| Average Post Hiatus (Part 1)     | Easy       | [View Solution]([https://github.com/HenamSingla/datalemur/blob/main/easy/Average%20Post%20Hiatus%20(Part%201)]) |
+|---------------------------------- |------------|-------------------------------------------|
+| Average Post Hiatus (Part 1)     | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Average%20Post%20Hiatus%20(Part%201)) |
 | Rolling Average                  | Medium     | [View Solution](./medium/rolling_avg.sql) |
 | Users With Most Posts            | Hard       | [View Solution](./hard/top_users.sql)     |
 
