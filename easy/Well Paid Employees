@@ -27,3 +27,11 @@ The output shows that Olivia Smith earns $7,000, surpassing her manager, William
 */
 
 My Solution:
+SELECT e.employee_id, e.name as employee_name
+FROM employee as m
+join employee as e
+on e.manager_id=m.employee_id
+where m.salary < e.salary
+
+
+(This was hard, I learned how to join the table on itself)
