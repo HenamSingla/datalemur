@@ -34,6 +34,9 @@ Only User 1052 confirmed their sign-up on the second day.
 */
 
 My Solution:
-
+SELECT user_id FROM emails e
+left join texts t on e.email_id=t.email_id
+where signup_action = 'Confirmed' and 
+(extract(day from t.action_date)-extract(day from e.signup_date))=1
 
 
