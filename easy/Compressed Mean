@@ -27,3 +27,5 @@ Mean = 8900 / 3300 = 2.7
 */
 
 My Solution:
+SELECT round(CAST(sum(item_count * order_occurrences)/ sum(order_occurrences) as NUMERIC),1) as mean
+FROM items_per_order
