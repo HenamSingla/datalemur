@@ -29,7 +29,7 @@ Each solution is saved and organized by question topic.
 
 | Question                            | Solution Link                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| App Click-through Rate (CTR)        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/App%20Click-through%20Rate%20(CTR)) |
+| App Click-through Rate (CTR)        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/App%20Click-through%20Rate%20(CTR)) |
 | Average Post Hiatus (Part 1)        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Average%20Post%20Hiatus%20(Part%201)) |
 | Average Review Ratings              | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Average%20Review%20Ratings) |
 | Cards Issued Difference             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Cards%20Issued%20Difference) |
