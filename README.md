@@ -25,16 +25,29 @@ Each solution is saved and organized by question topic.
 
 ---
 
-## 📝 Sample Solutions
+## 📝 Difficulty: Easy 
 
-| Question                      | Difficulty | Solution Link                                      |
-|-------------------------------|------------|---------------------------------------------------|
-| Average Post Hiatus (Part 1)  | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Average%20Post%20Hiatus%20(Part%201)) |
-| Data Science Skills           | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Data%20Science%20Skills) |
-| Histogram of Tweets           | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Histogram%20of%20Tweets) |
-| Laptop vs. Mobile Viewership  | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Laptop%20vs.%20Mobile%20Viewership) |
-| Page With No Likes            | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Page%20With%20No%20Likes) |
-| Unfinished Parts              | Easy       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Unfinished%20Parts) |
+| Question                            | Solution Link                                                                                 |
+|-------------------------------------|-----------------------------------------------------------------------------------------------|
+| App Click-through Rate (CTR)        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/App%20Click-through%20Rate%20(CTR)) |
+| Average Post Hiatus (Part 1)        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Average%20Post%20Hiatus%20(Part%201)) |
+| Average Review Ratings              | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Average%20Review%20Ratings) |
+| Cards Issued Difference             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Cards%20Issued%20Difference) |
+| Cities With Completed Trades        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Cities%20With%20Completed%20Trades) |
+| Compressed Mean                     | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Compressed%20Mean) |
+| Data Science Skills                 | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Data%20Science%20Skills) |
+| Duplicate Job Listings              | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Duplicate%20Job%20Listings) |
+| Histogram of Tweets                 | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Histogram%20of%20Tweets) |
+| IBM db2 Product Analytics           | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/IBM%20db2%20Product%20Analytics) |
+| Laptop vs. Mobile Viewership        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Laptop%20vs.%20Mobile%20Viewership) |
+| Page With No Likes                  | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Page%20With%20No%20Likes) |
+| Patient Support Analysis (Part 1)   | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Patient%20Support%20Analysis%20(Part%201)) |
+| Pharmacy Analytics (Part 1)         | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Pharmacy%20Analytics%20(Part%201)) |
+| Pharmacy Analytics (Part 2)         | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Pharmacy%20Analytics%20(Part%202)) |
+| Pharmacy Analytics (Part 3)         | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Pharmacy%20Analytics%20(Part%203)) |
+| Second Day Confirmation             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Second%20Day%20Confirmation) |
+| Teams Power Users                   | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Teams%20Power%20Users) |
+| Unfinished Parts                    | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Unfinished%20Parts) |
 
 ---
 
