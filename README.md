@@ -31,8 +31,8 @@ Each solution is saved and organized by question topic.
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | App Click-through Rate (CTR)        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/App%20Click-through%20Rate%20(CTR)) |
 | Average Post Hiatus (Part 1)        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Average%20Post%20Hiatus%20(Part%201)) |
-| Average Review Ratings              | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Average%20Review%20Ratings) |
-| Cards Issued Difference             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Cards%20Issued%20Difference) |
+| Average Review Ratings              | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Average%20Review%20Ratings) |
+| Cards Issued Difference             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Cards%20Issued%20Difference) |
 | Cities With Completed Trades        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Cities%20With%20Completed%20Trades) |
 | Compressed Mean                     | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Compressed%20Mean) |
 | Data Science Skills                 | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Data%20Science%20Skills) |
