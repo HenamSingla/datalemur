@@ -27,3 +27,16 @@ The only caller who made three, or more calls is policy holder ID 2.
 */
 
 My Solution:
+-- with cte as (SELECT count(distinct policy_holder_id) as policy_holder
+-- FROM callers
+-- group by policy_holder_id
+-- having count(distinct case_id)>=3)
+-- select sum(policy_holder) as policy_holder_count
+-- from cte
+
+
+select sum(policy_holder) as policy_holder_count 
+from (SELECT count(distinct policy_holder_id) as policy_holder
+FROM callers
+group by policy_holder_id
+having count(distinct case_id)>=3) as a 
