@@ -31,5 +31,9 @@ The first three rows indicate that some drugs resulted in losses. Among these, B
 */
 
 My Solution:
-
+SELECT manufacturer, count(distinct drug) as drug_count, ROUND(SUM(ABS(cogs - total_sales)), 2) AS total_loss
+FROM pharmacy_sales
+where cogs>total_sales
+group by manufacturer
+order by total_loss DESC
 
