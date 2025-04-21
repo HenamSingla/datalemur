@@ -22,3 +22,9 @@ The output represents the second highest salary among all employees. In this cas
 */
 
 My Solution:
+select salary as second_highest_salary 
+from(SELECT employee_id,	name,	salary,	department_id,	manager_id,
+rank() over (order by salary desc)
+as salary_rank
+FROM employee) as ranked_salary
+where salary_rank=2
