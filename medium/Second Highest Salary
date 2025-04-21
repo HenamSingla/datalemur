@@ -28,3 +28,11 @@ rank() over (order by salary desc)
 as salary_rank
 FROM employee) as ranked_salary
 where salary_rank=2
+
+
+
+select
+salary
+from employees
+order by salary desc 
+limit 1 offset 1
