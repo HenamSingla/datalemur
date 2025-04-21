@@ -52,27 +52,12 @@ Each solution is saved and organized by question topic.
 
 ## 📝 Difficulty: Medium 
 
-| Question                            | Solution Link                                                                                 |
-|-------------------------------------|-----------------------------------------------------------------------------------------------|
-| App Click-through Rate (CTR)        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/App%20Click-through%20Rate%20(CTR)) |
-| Average Post Hiatus (Part 1)        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Average%20Post%20Hiatus%20(Part%201)) |
-| Average Review Ratings              | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Average%20Review%20Ratings) |
-| Cards Issued Difference             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Cards%20Issued%20Difference) |
-| Cities With Completed Trades        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Cities%20With%20Completed%20Trades) |
-| Compressed Mean                     | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Compressed%20Mean) |
-| Data Science Skills                 | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Data%20Science%20Skills) |
-| Duplicate Job Listings              | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Duplicate%20Job%20Listings) |
-| Histogram of Tweets                 | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Histogram%20of%20Tweets) |
-| IBM db2 Product Analytics           | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/IBM%20db2%20Product%20Analytics) |
-| Laptop vs. Mobile Viewership        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Laptop%20vs.%20Mobile%20Viewership) |
-| Page With No Likes                  | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Page%20With%20No%20Likes) |
-| Patient Support Analysis (Part 1)   | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Patient%20Support%20Analysis%20(Part%201)) |
-| Pharmacy Analytics (Part 1)         | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Pharmacy%20Analytics%20(Part%201)) |
-| Pharmacy Analytics (Part 2)         | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Pharmacy%20Analytics%20(Part%202)) |
-| Pharmacy Analytics (Part 3)         | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Pharmacy%20Analytics%20(Part%203)) |
-| Second Day Confirmation             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Second%20Day%20Confirmation) |
-| Teams Power Users                   | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Teams%20Power%20Users) |
-| Unfinished Parts                    | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/easy/Unfinished%20Parts) |
+| #  | Question                        | Solution Link                                                                                      |
+|----|----------------------------------|------------------------------------------------------------------------------------------------------|
+| 1  | Second Highest Salary           | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Second%20Highest%20Salary) |
+| 2  | Sending vs. Opening Snaps       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Sending%20vs.%20Opening%20Snaps) |
+| 3  | User's Third Transaction        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/User's%20Third%20Transaction) |
+
 ---
 
 ## 💻 How to Use
