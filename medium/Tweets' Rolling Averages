@@ -29,5 +29,19 @@ user_id	tweet_date	rolling_avg_3d
 
 */
 
+
+Need to remember the window functions especially the rolling one for this one:
+round(avg(....) over(
+partition by ....
+order by ...
+ROWS BETWEEN 2 PRECEDING AND CURRENT ROW),2) as .....
+
+
 My Solution:
 
+SELECT user_id,	tweet_date, 
+round(avg(tweet_count) over(
+partition by user_id
+order by tweet_date
+ROWS BETWEEN 2 PRECEDING AND CURRENT ROW),2) as rolling_avg_3d
+FROM tweets
