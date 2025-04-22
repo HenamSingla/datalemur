@@ -11,6 +11,7 @@ Each solution is saved and organized by question topic.
 - `easy/`: Beginner-friendly SQL problems  
 - `medium/`: Intermediate SQL challenges  
 - `hard/`: Advanced SQL problems
+- `python/`: All Python problems
 
 ---
 
