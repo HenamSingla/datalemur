@@ -29,3 +29,13 @@ In the "electronics" category, the top two highest-grossing products are "vacuum
 */
 
 My Solution:
+SELECT category, product, total_spend
+from(SELECT category, product, 
+SUM(spend) AS total_spend,
+  rank() OVER (
+    PARTITION BY category
+    ORDER BY sum(spend) DESC) AS ranking
+FROM product_spend
+where EXTRACT(year from transaction_date)=2022
+group by category, product) as ranks
+where ranking <=2
