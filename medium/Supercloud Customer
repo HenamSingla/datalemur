@@ -36,4 +36,22 @@ Customer 1 bought from Analytics, Containers, and Compute categories of Azure, a
 
 */
 
+
+
 My Solution:
+
+with ranked_products as (
+SELECT *, 
+rank() over( 
+partition by customer_id
+order by product_category 
+) as rank_p
+FROM customer_contracts c
+join products p on c.product_id=p.product_id
+order by customer_id
+)
+
+select customer_id
+from ranked_products
+group by customer_id
+having count(DISTINCT rank_p)=3
