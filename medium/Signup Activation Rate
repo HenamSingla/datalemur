@@ -47,3 +47,6 @@ Explanation:
 Remember left join and what heppens if we use the condition 'AND' in it
 
 My Solution:
+SELECT round(count(t.signup_action) * 1.0 / count(e.email_id), 2) as confirm_rate
+FROM emails e
+left outer join texts t on e.email_id=t.email_id  and signup_action = 'Confirmed'
