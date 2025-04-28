@@ -31,4 +31,45 @@ On 07/10/2022, the sum of the odd-numbered measurements is 2355.75, while the su
 On 07/11/2022, there are only two measurements available. The sum of the odd-numbered measurements is 1124.50, and the sum of the even-numbered measurements is 1234.14.
 */
 
+
+
+Rememebr CAST AND FILTER
+
+
 My Solution:
+
+
+-- select distinct concat(submission_date, ' 00:00:00') as measurement_day,
+-- sum(measurement_value) over(partition by odd
+-- order by date) as odd_sum,
+-- sum(measurement_value) over(partition by even
+-- order by date) as even_sum
+-- from (with cte as (SELECT measurement_id,	measurement_value,	measurement_time,
+-- extract(day from measurement_time) as date,
+-- extract(hour from measurement_time) as mstime
+-- FROM measurements)
+-- select *, TO_CHAR(measurement_time, 'MM/DD/YYYY') as submission_date, 
+-- case when mod(mstime, 2) = 0 then 1 else 0 end as even,
+-- case when mod(mstime, 2) = 1 then 1 else 0 end as odd
+-- from cte
+-- order by date) as a
+
+select measurement_day, 
+sum(measurement_value) FILTER (WHERE odd = 1) AS odd_sum,
+sum(measurement_value) FILTER (WHERE even = 1) AS even_sum
+from (with ranked_meas as (select 
+ CAST(measurement_time AS DATE) AS measurement_day, 
+    measurement_value, 
+    ROW_NUMBER() OVER (
+      PARTITION BY CAST(measurement_time AS DATE) 
+      ORDER BY measurement_time) AS measurement_num 
+  FROM measurements)
+  
+select *,
+case when mod(measurement_num, 2) = 0 then 1 else 0 end as even,
+case when mod(measurement_num, 2) = 1 then 1 else 0 end as odd
+from ranked_meas) as subq
+GROUP BY measurement_day
+order by measurement_day asc
+
+
