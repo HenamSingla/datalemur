@@ -31,4 +31,21 @@ Apple Inc. (AAPL) achieved its highest opening price of $176.76 in May 2023 and 
 */
 
 
+
+
 My Solution:
+
+
+select ticker, 
+max(case when high_rank=1 then month_year end) as highest_mth,
+max(case when high_rank=1 then open end) as highest_open,
+max(case when low_rank=1 then month_year end) as lowest_mth	,
+max(case when low_rank=1 then open end) as lowest_open
+from(
+SELECT ticker,
+TO_CHAR(date, 'Mon-YYYY') AS month_year,
+open,
+rank() over (PARTITION by ticker order by open asc ) as low_rank,
+rank() over (PARTITION by ticker order by open desc ) as high_rank
+FROM stock_prices) as ranked
+group by ticker
