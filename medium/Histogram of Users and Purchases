@@ -25,3 +25,19 @@ transaction_date	user_id	purchase_count
 */
 
 My Solution:
+
+with cte as (select transaction_date, user_id, purchase_count,
+rank() over(
+PARTITION BY user_id
+order by transaction_date desc) as ranked
+from (SELECT max(transaction_date) as transaction_date,
+user_id,
+count(product_id) as purchase_count
+FROM user_transactions
+group by user_id, transaction_date
+order by transaction_date) as a)
+
+select transaction_date,	user_id,	purchase_count
+from cte
+where ranked=1
+order by transaction_date
