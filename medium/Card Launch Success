@@ -32,4 +32,10 @@ Chase Sapphire Reserve card was launched on 1/2021 with an issued amount of 170,
 
 My Solution:
 
-
+SELECT card_name, issued_amount
+from(SELECT *,
+rank() over(PARTITION by card_name
+order by issue_year,issue_month asc) 
+FROM monthly_cards_issued) as ranked
+where rank=1
+order by 2 desc
