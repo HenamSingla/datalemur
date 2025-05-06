@@ -44,3 +44,21 @@ Order ID 7 remains unchanged and is still associated with Tandoori Chicken. This
 
 
 My Solution:
+
+-- SELECT order_id as corrected_order_id,
+-- COALESCE(case when order_id%2 != 0 then lead(item)over(order by order_id)
+--               when order_id%2 = 0 then lag(item)over(order by order_id)
+-- end,item) as item 
+-- FROM orders 
+
+
+SELECT 
+  case 
+    when mod(order_id, 2) = 1 and order_id = (select max(order_id) from orders) then order_id
+    when mod(order_id, 2) = 1 then order_id + 1 
+    when mod(order_id, 2) = 0 then order_id - 1 
+    else null
+  end as corrected_order_id, 
+  item
+FROM orders 
+order by 1
