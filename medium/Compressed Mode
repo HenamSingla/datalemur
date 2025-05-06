@@ -28,3 +28,8 @@ Based on the example output, the order_occurrences value of 1000 corresponds to 
 
 
 My Solution:
+
+SELECT item_count
+FROM items_per_order
+where order_occurrences= (SELECT MAX(order_occurrences) FROM items_per_order)
+order by item_count asc
