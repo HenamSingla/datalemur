@@ -28,3 +28,9 @@ Out of the total of 5 calls registered, one call was not categorised. Therefore,
 
 
 My Solution:
+
+SELECT round(100.0 *
+count(case when (call_category='n/a' or call_category is NULL) then 1 end)/
+count(*)
+,1) as uncategorised_call_pct
+FROM callers
