@@ -40,3 +40,15 @@ There is a total of 4 calls with 2 of them being international calls (from calle
 */
 
 My Solution:
+
+
+with cte as (SELECT p.caller_id, i.caller_id as all_ids,	p.receiver_id, i.country_id as caller_country_id,
+a.country_id as rec_country_id
+FROM phone_calls p
+right join phone_info i on p.caller_id=i.caller_id
+join phone_info a on  p.receiver_id=a.caller_id)
+-- order by all_ids)
+
+select round(100.0 * count(case when caller_country_id	!= rec_country_id then 1 end)/
+count(rec_country_id) ,1) as international_calls_pct
+from cte
