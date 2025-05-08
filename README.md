@@ -53,12 +53,25 @@ Each solution is saved and organized by question topic.
 
 ## 📝 Difficulty: Medium 
 
-| #  | Question                        | Solution Link                                                                                      |
-|----|----------------------------------|------------------------------------------------------------------------------------------------------|
-| 1  | Second Highest Salary           | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Second%20Highest%20Salary) |
-| 2  | Sending vs. Opening Snaps       | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Sending%20vs.%20Opening%20Snaps) |
-| 3  | User's Third Transaction        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/User's%20Third%20Transaction) |
-
+| #  | Question                             | Solution Link                                                                                      |
+|----|--------------------------------------|------------------------------------------------------------------------------------------------------|
+| 1  | Card Launch Success                  | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Card%20Launch%20Success) |
+| 2  | Compressed Mode                      | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Compressed%20Mode) |
+| 3  | FAANG Stock Min-Max (Part 1)         | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/FAANG%20Stock%20Min-Max%20(Part%201)) |
+| 4  | Highest-Grossing Items               | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Highest-Grossing%20Items) |
+| 5  | Histogram of Users and Purchases     | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Histogram%20of%20Users%20and%20Purchases) |
+| 6  | International Call Percentage        | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/International%20Call%20Percentage) |
+| 7  | Odd and Even Measurements            | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Odd%20and%20Even%20Measurements) |
+| 8  | Patient Support Analysis (Part 2)    | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Patient%20Support%20Analysis%20(Part%202)) |
+| 9  | Second Highest Salary                | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Second%20Highest%20Salary) |
+| 10 | Sending vs. Opening Snaps           | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Sending%20vs.%20Opening%20Snaps) |
+| 11 | Signup Activation Rate               | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Signup%20Activation%20Rate) |
+| 12 | Supercloud Customer                  | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Supercloud%20Customer) |
+| 13 | Swapped Food Delivery                | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Swapped%20Food%20Delivery) |
+| 14 | Top Three Salaries                   | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Top%20Three%20Salaries) |
+| 15 | Tweets' Rolling Averages             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Tweets'%20Rolling%20Averages) |
+| 16 | User Shopping Sprees                 | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/User%20Shopping%20Sprees) |
+| 17 | User's Third Transaction             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/User's%20Third%20Transaction) |
 ---
 
 ## 💻 How to Use
