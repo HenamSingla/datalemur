@@ -35,4 +35,18 @@ To calculate the year-on-year growth rate, we compare the current year's spend w
 
 My Solution:
 
+WITH new AS (WITH cte AS (SELECT product_id, SUM(spend) AS yearly_spend,
+EXTRACT(YEAR FROM transaction_date) AS year
+FROM user_transactions
+GROUP BY product_id, EXTRACT(YEAR FROM transaction_date))
+  
+SELECT year, product_id, yearly_spend AS curr_year_spend,
+LAG(yearly_spend) OVER(PARTITION BY product_id ORDER BY year) AS prev_year_spend
+FROM cte)
+
+SELECT year, product_id, curr_year_spend, prev_year_spend,
+ROUND( CASE WHEN prev_year_spend IS NULL THEN NULL
+ELSE 100.0 * (curr_year_spend - prev_year_spend) / prev_year_spend END, 2) AS yoy_rate
+FROM new
+ORDER BY product_id, year
 
