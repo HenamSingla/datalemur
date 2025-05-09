@@ -28,4 +28,20 @@ Please note that the output provided is for June 2022 as the user_actions table 
 
 */
 
+
+
 My Solution:
+
+
+with cte as (select *, 
+rank() over (PARTITION by user_id
+order by month asc)
+from(SELECT *, 
+extract(month from event_date) as month
+FROM user_actions) as a
+where month in ('6','7'))
+
+SELECT month, count(DISTINCT user_id) as monthly_active_users
+from cte 
+where month=7 and rank>1
+group by month
