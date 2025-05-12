@@ -59,3 +59,17 @@ Similarly, the advertiser "alibaba" is also classified as "EXISTING" due to thei
 
 
 My Solution:
+
+select  coalesce(a.user_id,d.user_id) AS user_id,
+case
+when paid is null then 'CHURN' 
+when paid >0 and status is null then 'NEW'
+when paid >0 and status = 'EXISTING' then 'EXISTING'
+when paid >0 and status = 'NEW' then 'EXISTING'
+when paid >0 and status = 'RESURRECT' then 'EXISTING'
+when paid >0 and status = 'CHURN' then 'RESURRECT'
+else 'NULL' 
+end as new_status
+FROM advertiser a
+full outer join daily_pay d on a.user_id=d.user_id
+order by 1
