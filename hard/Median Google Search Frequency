@@ -22,3 +22,14 @@ By expanding the search_frequency table, we get [1, 1, 2, 2, 3, 3, 3, 4] which h
 */
 
 My Solution:
+
+select PERCENTILE_CONT(0.5) WITHIN group (order by searches)
+from(SELECT searches, GENERATE_SERIES(1, num_users)
+FROM search_frequency
+order by searches) as a
+
+
+-- SELECT *,
+-- SUM(num_users) OVER(ORDER BY searches) as running_sum , 
+-- sum(num_users) over () usersum
+-- FROM search_frequency 
