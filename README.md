@@ -72,6 +72,19 @@ Each solution is saved and organized by question topic.
 | 15 | Tweets' Rolling Averages             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/Tweets'%20Rolling%20Averages) |
 | 16 | User Shopping Sprees                 | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/User%20Shopping%20Sprees) |
 | 17 | User's Third Transaction             | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/medium/User's%20Third%20Transaction) |
+
+
+## Difficulty: Hard
+
+| #  | Question                           | Solution Link                                                                                  |
+|----|------------------------------------|--------------------------------------------------------------------------------------------------|
+| 1  | 3-Topping Pizzas                   | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/hard/3-Topping%20Pizzas)     |
+| 2  | Active User Retention              | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/hard/Active%20User%20Retention) |
+| 3  | Advertiser Status                  | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/hard/Advertiser%20Status) |
+| 4  | Department vs. Company Salary      | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/hard/Department%20vs.%20Company%20Salary) |
+| 5  | Median Google Search Frequency     | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/hard/Median%20Google%20Search%20Frequency) |
+| 6  | Y-on-Y Growth Rate                 | [View Solution](https://github.com/HenamSingla/datalemur/blob/main/hard/Y-on-Y%20Growth%20Rate) |
+
 ---
 
 ## 💻 How to Use
